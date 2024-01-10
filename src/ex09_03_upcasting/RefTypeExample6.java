@@ -6,9 +6,10 @@ class RefTypeExample6 {
 		Account obj = 
 				new CheckingAccount("111-22-333333333","홍길동",10,"4444-5555-6666-7777");
 		try {
-			//int amount = obj.pay("4444-5555-6666-7777",47000);
-			//System.out.println("인출액: "+amount);
-			//System.out.println("카드번호: "+obj.cardNo);
+			// int amount = obj.pay("4444-5555-6666-7777",47000);
+			// System.out.println("인출액: "+amount);
+			// System.out.println("카드번호: "+obj.cardNo);
+			// obj.pay를 사용하고싶으면 객체를 CheckingAccount에서 사용해야함
 			// 3줄 다 주석제거해야 원형이지만 컴파일 오류 방지하기 위해 주석처리함
 		}catch (Exception e) {
 			System.out.println(e.getMessage());
